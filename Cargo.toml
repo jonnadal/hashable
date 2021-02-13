@@ -1,0 +1,16 @@
+[package]
+name = "hashable"
+version = "0.0.0"
+authors = ["Jonathan Nadal <jon.nadal@gmail.com>"]
+license = "MIT"
+edition = "2018"
+
+description = "HashMap and HashSet replacements that implement the Hash trait -- HashableHashMap and HashableHashSet."
+repository = "https://github.com/jonnadal/hashable"
+readme = "README.md"
+categories = ["data-structures", "rust-patterns"]
+keywords = ["hash", "hashmap", "hashset", "map", "set"]
+
+[dependencies]
+ahash = "0.7"
+serde = "1.0"
